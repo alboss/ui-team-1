@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fill in Title</title>
+    <style>
+      nav {
+        background-color: black;
+      }
+
+      a {
+        color: ghostwhite;
+        margin-left: 25px;
+      }
+      a:hover
+      {
+        color: goldenrod;
+        text-decoration: underline;
+      }
+
+      body,
+      html {
+        height: 100%;
+        background-color: black;
+      }
+
+      .parallax {
+        /* The image used */
+        background-image: url('Voice-Acting.jpg');
+        /* Full height */
+        height: 100%;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #midbar {
+        height: 500px;
+        background-color: black;
+        font-size: 36px
+      }
+      #contacts_div {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+  }
+
+  #contacts_div>div {
+    margin: 10px;
+    max-width: 100px;
+    color: goldenrod;
+    text-shadow: 1px 2px black;
+    text-align: center;
+    font-size: 15px;
+  }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="index copy 1.html">Home</a>
+        <a href="index copy 2.html">Resume</a>
+        <a href="index copy 3.html">Portfolio/Demo</a>
+        <a href="index copy 4.html">Contacts</a>
+      </div>
+    </nav>
+    <div class="parallax"></div>
+    <div id="midbar">
+      <p style="color:white;"> Put words here for home page stuff </p>
+    </div>
+    <div class="parallax"></div>
+<footer>
+    <div id="contacts_div">
+    <div><p style="height: 200px; color: goldenrod;">Contact us stuff<br> could be center or what ever</p></div>
+    <div><p style="height: 200px; color: goldenrod;">Contact us stuff</p></div>
+</div>
+</footer>
+</body>
+</html>
