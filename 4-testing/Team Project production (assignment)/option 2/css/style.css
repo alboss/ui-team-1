@@ -1,0 +1,97 @@
+/*---------------Navigation effect------------------------------------------------------------------------------------------*/
+nav {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  color: ghostwhite;
+  margin-left: 25px;
+}
+a:hover {
+  color: goldenrod;
+  text-decoration: underline;
+}
+
+/*---------------parallax effect------------------------------------------------------------------------------------------*/
+.parallax {
+  /* The image used */
+  background-image: url(../images/images1.jpg);
+    /* Full height */
+    height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size:cover;
+  left: auto;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url(../images/image2.png);
+
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url(../images/image3.png);
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*---------------Body------------------------------------------------------------------------------------------*/
+body,
+html {
+  height: 100%;
+  background-color: black;
+}
+.midbar {
+  height: 500px;
+  background-color: black;
+  font-size: 36px;
+}
+#contacts_div {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+}
+
+#contacts_div > div {
+  margin: 10px;
+  max-width: 100px;
+  color: goldenrod;
+  text-shadow: 1px 2px black;
+  text-align: center;
+  font-size: 15px;
+}
+#contacts_div {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+}
+p {
+  background: black;
+  color: goldenrod;
+}
+.option {
+  text-align: center;
+  font-size: 1.25rem;
+  color: black;
+  background-color: green;
+}
+/*---------------footer------------------------------------------------------------------------------------------*/
